@@ -1,0 +1,323 @@
+body {  
+    /* background-image: linear-gradient(43deg, #04041b 25%, #0a0a0a 46%, #04041b 100%) */
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .head {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;      /* Centers vertically */
+    }
+}
+
+header {
+    background-color: #222222;
+    color: aliceblue;
+    height: 82.18px;
+    padding-top: 1px;
+    text-align: center;
+    word-spacing: 250px;  
+    font-size: large;
+} 
+
+.avatar {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+}
+
+#Profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium'; 
+    text-align: center;  
+    margin-top: 40px;
+
+}
+#ab-it{
+    background-image: linear-gradient(43deg, #4c37ce 0%, #f10551 46%, #f1f102 100%);;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center; /* Centers the button vertically */
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 40px 10px;
+    font-weight: normal;
+    color: white;
+    background-color: black;    
+}
+
+h4 {
+    color: #9a9aa0;
+    text-align: center;
+    font-size: large;
+    font-weight: normal; 
+}
+
+.log {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the items horizontally */
+    align-items: center;     /* Centers the items vertically */
+}
+.log-s{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    border-radius: 5px;
+    margin: 20px 8px;
+}
+
+
+.logo-s {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144px;
+    border-radius: 5px;
+    margin: 20px 8px;
+}
+
+.logoo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+
+#lo{
+    background-image: linear-gradient(43deg, #4c37ce 0%, #f10551 46%, #f1f102 100%);;
+    -webkit-background-clip: text;
+    color: transparent
+}
+
+
+#pro {
+    text-align: center;
+    color: #eca012;
+
+    margin: 30px 0px 20px 0px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 35px;
+    background: linear-gradient(orange, gold); /* The gradient color */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Make the text color transparent */
+}
+
+#exp {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    background: #2dd1ff; /* The gradient color */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text; /* For non-WebKit browsers */
+    color: transparent; /* Make the text color transparent */
+    font-family: 'Franklin Gothic Medium';   
+}
+
+.hjs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    padding: 20px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 0px 10px 20px ;
+    background-color: white;
+    float: left;
+}
+.p1-t{
+    text-align: start;
+    margin: 0px 0px 6px 0px ;
+}
+
+.p1-p{
+    margin-top: 0px ;
+    text-align: start;
+}
+
+#n-l{
+    background-color: white;
+}
+
+#icon-c-g{
+    background-color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.gam {
+    height: 30px;
+}
+
+footer {
+    margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+    height: 200px;
+    color: white;
+   }
+
+.icon {
+    height: 30px;
+    margin: 0 10px;
+}
+
+.d-p{
+    width: 50%;
+    margin: 20px 0px;
+    color: white;
+    padding: 6px;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 82.18px;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    margin: 0;
+    position: relative;
+    border: 1px solid; /* Adjust the width of the border */
+    border-image: linear-gradient(43deg, #4c37ce 0%, #f10551 46%, #f1f102 100%) ;
+}
+
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 2px;
+    width: 25px;
+    background-color: white;
+    margin: 4px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 200px;
+        background-color:transparent;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+    margin: 10px;
+    }
+
+    .nav-links.active {
+        display: flex;
+        align-self: flex-end    ;
+        
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .logoo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        border-radius: 5px;
+        margin: 20px 40px;
+        width: 100% !important;
+
+    }
+    #lo{
+        background-image: linear-gradient(43deg, #4c37ce 0%, #f10551 46%, #f1f102 100%);;
+        -webkit-background-clip: text;
+        color: transparent
+    }
+    .log {     
+    }
+    
+.d-p{
+    width: 50%;
+    margin: 20px 0px;
+    color: white;
+    padding: 6px;
+}
+}
+
+

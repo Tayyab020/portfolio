@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div id="lo">  
+        <div class="logoo">Welcome</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Your other content here -->
+    
+
+        <div id="home">
+
+            <div class="avatar">
+                <img src="./PicsArt_08-29-10.47.29.png" all="img" id="Profile">
+            </div>
+            <div>
+                <h1>
+                    Hello , 👋 I Am <br>
+                    <span id="ab-it">Tayyab Hussain!</span>
+                </h1>
+                <p>
+                    MERN Stack Developer
+                </p>
+            </div>
+
+            <div class="button-container">
+                <a href="#contact">
+                <Button >Get in Touch</Button>
+                </a>
+                <a href="./Tayyab's Resume .pdf" download="Tayyab's CV.pdf">
+                    <button>Download CV</button>
+                </a>
+            </div>
+            <h4>
+                <b>MY TECH STACK</b>
+            </h4>
+            <div class="log">
+                <image src="/icons8-html.svg" alt="img" class="logo">
+                <img src="/icons8-css.svg" alt="img" class="logo"> 
+                <img src="/icons8-js.svg" alt="img" class="logo">
+            
+                <img src="/icons8-react-js.svg" alt="img" class="logo"> 
+                <img src="/icons8-node-js.svg" alt="img" class="logo">
+                <img src="/icons8-mongodb.svg" alt="img" class="logo">
+            </div>
+    
+        </div >
+
+        <div id="projects">
+            <h2 id="pro">PROJECTS</h2>
+            <div class="hjs">
+                <div class="d-p" >
+
+                    <div>
+                        <image src="/WhatsApp Image 2024-08-30 at 06.07.34_23b1db17.jpg" alt="img" class="photo"></image>
+                    </div>
+                    <div >
+                        <h1 class="p1-t">
+                            TailoHub
+                        </h1>
+                        <p class="p1-p">A platform to coonect tailors and clients to make online appointment.
+                            React Native mobile app and a web-based admin panel built on the MERN stack (MongoDB, Express, React, Node.js).
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="d-p">
+
+                    <div>
+                        <image src="/icons8-nextjs.svg" alt="img" class="photo" id="p2"> 
+                    
+                    </div>
+                        <div >
+                            <h1 class="p1-t">
+                                Authentication System
+                            </h1>
+                            <p class="p1-p">System built on NEXT Js that Authenticates users
+                            </p>
+                        </div>
+                </div>
+                </div>
+        </div>
+
+        <div id="experience">
+            
+        
+        <div>
+            <h2 id="exp">SKILLS</h2>
+        </div>
+
+        <div class="log-s">
+            <image src="/icons8-html.svg" alt="img" class="logo-s">
+            <img src="/icons8-css.svg" alt="img" class="logo-s"> 
+            <img src="/icons8-js.svg" alt="img" class="logo-s">
+        
+            <img src="/icons8-react-js.svg" alt="img" class="logo-s"> 
+            <img src="/icons8-node-js.svg" alt="img" class="logo-s">
+            <img src="/icons8-mongodb.svg" alt="img" class="logo-s">
+            <img src="/icons8-c.svg" alt="img" class="logo-s">
+            <img src="/icons8-java.svg" alt="img" class="logo-s"> 
+            <img src="/icons8-mysql-logo.svg" alt="img" class="logo-s">
+            <img src="/icons8-nextjs.svg" id="n-l" alt="img"    class="logo-s">
+            <img src="/icons8-tailwind-css.svg" alt="img" class="logo-s">
+            <img src="/icons8-python (1).svg" alt="img" class="logo-s">
+        </div>
+        </div>
+        
+        <div id="contact">
+            <footer>
+            <p> <h2><u>Contact Me:</u></h2><br>
+                <h3>
+                    Tayyabhussain@gmail.com
+                </h3>
+                <br>
+                <a href="https://github.com/Tayyab020
+                "  style="text-decoration: none">
+                <img src="/icons8-github.svg" alt="img" class="icon" id="icon-c-g">
+                  
+                </a>
+                <a style="text-decoration: none" href="https://www.linkedin.com/in/tayyab-hussain-11617a233/">
+                    <img src="/icons8-linkedin.svg" alt="img" class="icon">
+               
+                </a>
+                <a style="text-decoration: none" href="https://youtube.com/@tayyabhussain8299?si=NCiluKuOBcJqFUsl">
+                    <img src="/icons8-youtube.svg" alt="img" class="icon">
+                 
+                </a>
+                 <a style="text-decoration: none" href="https://www.instagram.com/tayyab.__hussain?igsh=NnY2d3l2dDNwaHl5">
+                    <img src="/icons8-insta.svg" alt="img" class="icon">
+
+                 </a>
+               
+            </p>
+            </footer>
+        </div>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
